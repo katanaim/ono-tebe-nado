@@ -5,6 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a href="#0" class="header__link_active">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#0" class="header__link"> посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#0" class="header__link">об аукционе</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__logo">
+        <a><img src="/images/logo-black.svg" alt="Логотип" /></a>
+      </div>
+      <div class="header__address">
+        <address class="address">
+          <a href="tel:+70000000">+9 999 555 5555</a> <br />
+          <a href="mailto:mail@example.com">info@sobaka.ge</a> <br />
+          наб. Принсенграхт 263-265, <br />
+          Амстердам
+        </address>
+      </div>
+    </header>
+    <main>
+      <div class="cover">
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text"
+            >о<span class="letter-spacing-extended">но</span></span
+          >
+          <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+          <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>адо</span>
+        </h1>
+        <div class="cover__description">
+          <h2 class="cover__description-text">
+            Аукцио<span class="no-letter-spacing">н</span> вещей<span class="no-letter-spacing">,</span> <span class="no-letter-spacing">в</span> которы<span class="no-letter-spacing">е</span> никт<span class="no-letter-spacing" style="letter-spacing: 0.9em;">о</span> н<span class="no-letter-spacing">е</span> верил
+          </h2>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
+      </div>
+      <div class="lots"></div>
+      <div class="about"></div>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>
